@@ -39,30 +39,28 @@
 | dict()        | hex()       | object()     | slice()     | **coerce()**   |
 | dir()         | id()        | oct()        | sorted()    | **intern()**   |
 
-
+注：python2.7中，print是关键字而不是函数。可以通过使用`from __future__ import print_function` 的方式将print转换成函数使用。apply()、buffer()、coerce()、intern()函数被放进了Non-essential Built-in Functions中。
 
 > 内置函数表（python3.8）
 
-| 1             | 2           | 3            | 4           | 5              |
-| :------------ | ----------- | ------------ | ----------- | -------------- |
-| abs()         | divmod()    | input()      | open()      | staticmethod() |
-| all()         | enumerate() | int()        | ord()       | str()          |
-| any()         | eval()      | isinstance() | pow()       | sum()          |
-| basestring()  | execfile()  | issubclass() | print()     | super()        |
-| bin()         | file()      | iter()       | property()  | tuple()        |
-| bool()        | filter()    | len()        | range()     | type()         |
-| bytearray()   | float()     | list()       | raw_input() | unichr()       |
-| callable()    | format()    | locals()     | reduce()    | unicode()      |
-| chr()         | frozenset() | long()       | reload()    | vars()         |
-| classmethod() | getattr()   | map()        | repr()      | xrange()       |
-| cmp()         | globals()   | max()        | reversed()  | zip()          |
-| compile()     | hasattr()   | memoryview() | round()     | `__import__()` |
-| complex()     | hash()      | min()        | set()       | apply()        |
-| delattr()     | help()      | next()       | setattr()   | buffer()       |
-| dict()        | hex()       | object()     | slice()     | coerce()       |
-| dir()         | id()        | oct()        | sorted()    | intern()       |
+| 1             | 2           | 3            | 4            | 5              |
+| :------------ | ----------- | ------------ | ------------ | -------------- |
+| abs()         | delattr()   | hash()       | memoryview() | set()          |
+| all()         | dict()      | help()       | min()        | setattr()      |
+| any()         | dir()       | hex()        | next()       | slice()        |
+| ascii()       | divmod()    | id()         | object()     | sorted()       |
+| bin()         | enumerate() | input()      | oct()        | staticmethod() |
+| bool()        | eval()      | int()        | open()       | str()          |
+| breakpoint()  | exec()      | isinstance() | ord()        | sum()          |
+| bytearray()   | filter()    | issubclass() | pow()        | super()        |
+| bytes()       | float()     | iter()       | print()      | tuple()        |
+| callable()    | format()    | len()        | property()   | type()         |
+| chr()         | frozenset() | list()       | range()      | vars()         |
+| classmethod() | getattr()   | locals()     | repr()       | zip()          |
+| compile()     | globals()   | map()        | reversed()   | `__import__()` |
+| complex()     | hasattr()   | max()        | round()      |                |
 
-注：python2.7中，print是关键字而不是函数。python3中没有内置函数unicode()。
+注：python3.8中删除了内置函数basestring()、cmp()、execfile()、file()、long()、raw_input()、reduce()、reload()、unichr()、unicode()、xrange()，新增了内置函数breakpoint()、bytes()、exec()。
 
 </br>
 
