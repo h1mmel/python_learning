@@ -3,7 +3,10 @@
 
 #### 01 - [开发环境准备](./开发环境准备.md)
 
-#### 02 - [python基本语法](./02-python基本语法)
+#### 02 - python基本语法
+
+* [01-hello_world](./02-python基本语法/01-hello_world.md)
+* 
 
 
 
