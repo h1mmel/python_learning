@@ -34,10 +34,12 @@
 | classmethod() | getattr()   | map()        | repr()      | xrange()       |
 | cmp()         | globals()   | max()        | reversed()  | zip()          |
 | compile()     | hasattr()   | memoryview() | round()     | `__import__()` |
-| complex()     | hash()      | min()        | set()       | apply()        |
-| delattr()     | help()      | next()       | setattr()   | buffer()       |
-| dict()        | hex()       | object()     | slice()     | coerce()       |
-| dir()         | id()        | oct()        | sorted()    | intern()       |
+| complex()     | hash()      | min()        | set()       | **apply()**    |
+| delattr()     | help()      | next()       | setattr()   | **buffer()**   |
+| dict()        | hex()       | object()     | slice()     | **coerce()**   |
+| dir()         | id()        | oct()        | sorted()    | **intern()**   |
+
+
 
 > 内置函数表（python3.8）
 
