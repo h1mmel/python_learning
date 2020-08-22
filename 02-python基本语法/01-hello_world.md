@@ -1,4 +1,4 @@
-python 环境部署成功后，就可以开始编写第一句 python 代码了。
+python 环境部署成功后，就可以开始编写第一句python代码了。
 
 新建 hello_world.py 文件，并使用ST打开，输入以下代码
 
@@ -8,7 +8,7 @@ print('hello world!')
 
 使用`CTRL + S` 快捷键进行保存，也可以通过工具栏选择`File -> Save` 进行文件保存。
 
-使用`F5` 快捷键运行此 python 脚本，运行成功后会在新标签页`*REPL* [python]`显示以下输出
+使用`F5` 快捷键运行此python脚本，运行成功后会在新标签页`*REPL* [python]`显示以下输出
 
 ```python
 hello world!
@@ -30,5 +30,16 @@ hello world!
 >>>
 ```
 
+同样的，也可以在终端直接运行python脚本文件，如下所示
 
+```bash
+Microsoft Windows [版本 10.0.18363.1016]
+(c) 2019 Microsoft Corporation。保留所有权利。
+
+C:\Users\xxxxx>python C:\Users\xxxxx\Documents\GitHub\python_learning\02-python基本语法\Code\hello_world.py
+hello world!
+
+```
+
+至此，基本python环境已部署完毕，第一句python代码也已经成功运行，接下来就需要学习python的基础语法了。
 
