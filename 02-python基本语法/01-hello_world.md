@@ -6,9 +6,9 @@ python 环境部署成功后，就可以开始你编写第一句python代码了�
 print('hello world!')
 ```
 
-使用`CTRL + S` 快捷键进行保存，也可以选择`File -> Save` 进行文件保存。
+使用`CTRL + S` 快捷键进行保存，也可以通过工具栏选择`File -> Save` 进行文件保存。
 
-F5运行此python脚本，运行成功会显示以下输出
+F5运行此python脚本，运行成功后会在新标签页`*REPL* [python]`显示以下输出
 
 ```python
 hello world!
