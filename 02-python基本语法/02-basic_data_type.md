@@ -75,7 +75,30 @@
 
 如果字符串本身需要使用某种引号时，可以用如下方式解决
 
+```python
+"it's hers."
+"I think 'python' is the best programming language."
+'"python is the best."'
 ```
-"it's hers"
+
+##### 字符串的常用方法
+
+* 修改字符串的大小写
+
+```python
+name = 'guido van rossum'
+print(name.title())
+print(name.upper())
+print(name.lower())
 ```
+
+运行结果如下
+
+```
+Guido Van Rossum
+GUIDO VAN ROSSUM
+guido van rossum
+```
+
+
 
