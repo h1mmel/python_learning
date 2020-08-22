@@ -39,7 +39,7 @@
 | dict()        | hex()       | object()     | slice()     | ***coerce()*** |
 | dir()         | id()        | oct()        | sorted()    | ***intern()*** |
 
-注：python2.7中，print是关键字而不是函数。可以在脚本头部添加`from __future__ import print_function` 声明将print转换成函数使用。内置函数***apply()***、***buffer()***、***coerce()***、***intern()***被放进了[Non-essential Built-in Functions](https://docs.python.org/zh-cn/2.7/library/functions.html#non-essential-built-in-funcs) section中，不在重要。
+注：python2.7中，print是关键字而不是函数。可以在脚本头部添加`from __future__ import print_function` 语句将print转换成函数使用。内置函数***apply()***、***buffer()***、***coerce()***、***intern()***被放进了[Non-essential Built-in Functions](https://docs.python.org/zh-cn/2.7/library/functions.html#non-essential-built-in-funcs) section中，不在重要。
 
 > 内置函数表（python3.8）
 
@@ -68,5 +68,14 @@
 
 * python 中以引号括起的都是字符串，引号可以是单引号('')和双引号("")
 
+```python
+'hello world!'
+"hello world!"
+```
 
+如果字符串本身需要使用某种引号时，可以用如下方式解决
+
+```
+"it's hers"
+```
 
