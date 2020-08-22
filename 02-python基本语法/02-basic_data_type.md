@@ -20,24 +20,24 @@
 
 > 内置函数表
 
-| 1             | 2           | 3            | 4               | 5                                    |
-| :------------ | ----------- | ------------ | --------------- | ------------------------------------ |
-| abs()         | divmod()    | input()      | open()          | staticmethod()                       |
-| all()         | enumerate() | int()        | ord()           | str()                                |
-| any()         | eval()      | isinstance() | pow()           | sum()                                |
-| basestring()  | execfile()  | issubclass() | print()         | super()                              |
-| bin()         | file()      | iter()       | property()      | tuple()                              |
-| bool()        | filter()    | len()        | range()         | type()                               |
-| bytearray()   | float()     | list()       | raw_input()     | unichr()                             |
-| callable()    | format()    | locals()     | reduce()        | unicode()                            |
-| chr()         | frozenset() | long()       | reload()        | vars()                               |
-| classmethod() | getattr()   | map()        | repr()          | xrange()                             |
-| cmp()         | globals()   | max()        | reversed()zip() | Zip()                                |
-| compile()     | hasattr()   | memoryview() | round()         | <u></u><u></u>import<u></u><u></u>() |
-| complex()     | hash()      | min()        | set()           | apply()                              |
-| delattr()     | help()      | next()       | setattr()       | buffer()                             |
-| dict()        | hex()       | object()     | slice()         | coerce()                             |
-| dir()         | id()        | oct()        | sorted()        | intern()                             |
+| 1             | 2           | 3            | 4               | 5                |
+| :------------ | ----------- | ------------ | --------------- | ---------------- |
+| abs()         | divmod()    | input()      | open()          | staticmethod()   |
+| all()         | enumerate() | int()        | ord()           | str()            |
+| any()         | eval()      | isinstance() | pow()           | sum()            |
+| basestring()  | execfile()  | issubclass() | print()         | super()          |
+| bin()         | file()      | iter()       | property()      | tuple()          |
+| bool()        | filter()    | len()        | range()         | type()           |
+| bytearray()   | float()     | list()       | raw_input()     | unichr()         |
+| callable()    | format()    | locals()     | reduce()        | unicode()        |
+| chr()         | frozenset() | long()       | reload()        | vars()           |
+| classmethod() | getattr()   | map()        | repr()          | xrange()         |
+| cmp()         | globals()   | max()        | reversed()zip() | Zip()            |
+| compile()     | hasattr()   | memoryview() | round()         | _ _ import _ _() |
+| complex()     | hash()      | min()        | set()           | apply()          |
+| delattr()     | help()      | next()       | setattr()       | buffer()         |
+| dict()        | hex()       | object()     | slice()         | coerce()         |
+| dir()         | id()        | oct()        | sorted()        | intern()         |
 
 注：python2.7中，print是关键字而不是函数。python3中没有内置函数unicode()。
 
