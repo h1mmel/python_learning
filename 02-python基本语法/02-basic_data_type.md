@@ -34,12 +34,12 @@
 | classmethod() | getattr()   | map()        | repr()      | xrange()       |
 | cmp()         | globals()   | max()        | reversed()  | zip()          |
 | compile()     | hasattr()   | memoryview() | round()     | `__import__()` |
-| complex()     | hash()      | min()        | set()       | **apply()**    |
-| delattr()     | help()      | next()       | setattr()   | **buffer()**   |
-| dict()        | hex()       | object()     | slice()     | **coerce()**   |
-| dir()         | id()        | oct()        | sorted()    | **intern()**   |
+| complex()     | hash()      | min()        | set()       | ***apply()***  |
+| delattr()     | help()      | next()       | setattr()   | ***buffer()*** |
+| dict()        | hex()       | object()     | slice()     | ***coerce()*** |
+| dir()         | id()        | oct()        | sorted()    | ***intern()*** |
 
-注：python2.7中，print是关键字而不是函数。可以通过使用`from __future__ import print_function` 的方式将print转换成函数使用。apply()、buffer()、coerce()、intern()函数被放进了Non-essential Built-in Functions中。
+注：python2.7中，print是关键字而不是函数。可以在脚本头部添加`from __future__ import print_function` 声明将print转换成函数使用。内置函数***apply()***、***buffer()***、***coerce()***、***intern()***被放进了[Non-essential Built-in Functions](https://docs.python.org/zh-cn/2.7/library/functions.html#non-essential-built-in-funcs) section中，不在重要。
 
 > 内置函数表（python3.8）
 
@@ -60,13 +60,13 @@
 | compile()     | globals()   | map()        | reversed()   | `__import__()` |
 | complex()     | hasattr()   | max()        | round()      |                |
 
-注：python3.8中删除了内置函数basestring()、cmp()、execfile()、file()、long()、raw_input()、reduce()、reload()、unichr()、unicode()、xrange()，新增了内置函数breakpoint()、bytes()、exec()。
+注：python3.8中删除了内置函数basestring()、cmp()、execfile()、file()、long()、raw_input()、reduce()、reload()、unichr()、unicode()、xrange()，新增了内置函数ascii()、breakpoint()、bytes()、exec()。
 
 </br>
 
 ### 字符串
 
-
+* python 中以引号括起的都是字符串，引号可以是单引号('')和双引号("")
 
 
 
