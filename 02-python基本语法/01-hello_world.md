@@ -22,7 +22,7 @@ hello world!
 Microsoft Windows [版本 10.0.18363.1016]
 (c) 2019 Microsoft Corporation。保留所有权利。
 
-C:\Users\22868>python
+C:\Users\xxxxx>python
 Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:37:02) [MSC v.1924 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 >>> print('hello world!')
