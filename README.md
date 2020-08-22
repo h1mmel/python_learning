@@ -6,6 +6,7 @@
 #### 02 - python基本语法
 
 * [01-hello_world](./02-python基本语法/01-hello_world.md)
+* [02-basic_data_type](./02-python基本语法/02-basic_data_type.md)
 * 
 
 
