@@ -1,6 +1,4 @@
-### hello world!
-
----
+## hello world!
 
 python 环境部署成功后，就可以开始编写第一句python代码了。
 
