@@ -30,9 +30,7 @@
 | assert | del      | global  | not      | with   |
 | async  | elif     | if      | or       | yield  |
 
-注：从python3.7开始新增了关键字，False、None、True、async、await、nonlocal，删除了关键字exec、print。
-
-​		关键字的使用必须表格中列出的拼写完全一致。
+注：从python3.7开始新增了关键字，False、None、True、async、await、nonlocal，删除了关键字exec、print。关键字的使用必须表格中列出的拼写完全一致。
 
 > 内置函数表 (python2.7)
 
