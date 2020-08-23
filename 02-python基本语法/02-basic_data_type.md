@@ -6,17 +6,33 @@
 * 变量名不能包含空格。
 * 不能使用python关键字和函数名用作变量名。
 
-> 关键字表
+> 关键字表（python2.7）
+
+| 1        | 2       | 3      | 4      | 5     |
+| -------- | ------- | ------ | ------ | ----- |
+| and      | del     | from   | not    | while |
+| as       | elif    | global | or     | with  |
+| assert   | else    | if     | pass   | yield |
+| break    | except  | import | print  |       |
+| class    | exec    | in     | raise  |       |
+| continue | finally | is     | return |       |
+| def      | for     | lamda  | try    |       |
+
+> 关键字表（python3.8）
 
 | 1      | 2        | 3       | 4        | 5      |
 | ------ | -------- | ------- | -------- | ------ |
-| False  | class    | finally | is       | return |
-| None   | continue | for     | lamda    | try    |
-| True   | def      | from    | nonlocal | while  |
-| and    | del      | global  | not      | with   |
-| as     | elif     | if      | or       | yield  |
-| assert | else     | import  | pass     |        |
-| break  | except   | in      | raise    |        |
+| False  | await    | else    | import   | pass   |
+| None   | break    | except  | in       | raise  |
+| True   | class    | finally | is       | return |
+| and    | continue | for     | lambda   | try    |
+| as     | def      | from    | nonlocal | while  |
+| assert | del      | global  | not      | with   |
+| async  | elif     | if      | or       | yield  |
+
+注：从python3.7开始新增了关键字，False、None、True、async、await、nonlocal，删除了关键字exec、print。
+
+​		关键字的使用必须表格中列出的拼写完全一致。
 
 > 内置函数表 (python2.7)
 
@@ -39,7 +55,7 @@
 | dict()        | hex()       | object()     | slice()     | ***coerce()*** |
 | dir()         | id()        | oct()        | sorted()    | ***intern()*** |
 
-注：python2.7中，print是关键字而不是函数。可以在脚本头部添加`from __future__ import print_function` 语句将print转换成函数使用。内置函数***apply()***、***buffer()***、***coerce()***、***intern()*** 被放进了[Non-essential Built-in Functions](https://docs.python.org/zh-cn/2.7/library/functions.html#non-essential-built-in-funcs) section中，不在重要。
+注：python2.7中，print是关键字而不是函数。可以在脚本头部添加`from __future__ import print_function` 语句将print转换成函数使用。内置函数***apply()***、***buffer()***、***coerce()***、***intern()*** 被放进了[Non-essential Built-in Functions](https://docs.python.org/zh-cn/2.7/library/functions.html#non-essential-built-in-funcs) section中。
 
 > 内置函数表（python3.8）
 
@@ -100,5 +116,6 @@ GUIDO VAN ROSSUM
 guido van rossum
 ```
 
-> python中
+> python变量使用句点(.)访问方法，如name.title()，代表变量name执行title()方法，结果就是将字符串中的每个单词的首字母大写。然后print()函数就将name.title()的返回结果打印在终端上。
 
+注：python中的函数分为函数和方法两种，其中类中的函数被称为方法。
