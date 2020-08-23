@@ -1,10 +1,36 @@
-## 变量
+### 变量
+
+---
+
+有如下两段示例代码
+
+```python
+print('guido van rossum')
+```
+
+```python
+name = 'guido van rossum'
+print(name)
+```
+
+运行结果如下
+
+```
+guido van rossum
+```
+
+两段代码的执行结果一模一样，
+
+</br>
 
 ### 变量命名
+
+---
 
 * 变量名只能包含字母、数字和下划线，且变量名不能以数字开头。
 * 变量名不能包含空格。
 * 不能使用python关键字和函数名用作变量名。
+* 变量名最好有实际的含义。
 
 > 关键字表（python2.7）
 
@@ -110,6 +136,8 @@ print(name.upper())
 print(name.lower())
 ```
 
+> python变量使用句点(.)访问方法，如name.title()，代表变量name执行title()方法，作用就是将字符串中的每个单词的首字母大写。然后print()函数将name.title()的返回结果打印在终端上。同理，upper()方法作用是将字符串中的所有字符转换成大写，lower()方法作用是将字符串中的所有字符转换成小写，因为name本身就是小写所以没有变化。
+
 运行结果如下
 
 ```
@@ -117,8 +145,6 @@ Guido Van Rossum
 GUIDO VAN ROSSUM
 guido van rossum
 ```
-
-> python变量使用句点(.)访问方法，如name.title()，代表变量name执行title()方法，作用就是将字符串中的每个单词的首字母大写。然后print()函数将name.title()的返回结果打印在终端上。同理，upper()方法作用是将字符串中的所有字符转换成大写，lower()方法作用是将字符串中的所有字符转换成小写，因为name本身就是小写所以没有变化。
 
 注：python中的函数分为**函数**和**方法**两种叫法，其中类中的函数被称为方法。
 
@@ -136,6 +162,7 @@ print(start.title() + ' ' + end.title())
 
 ```
 hello world!
+Hello World!
 ```
 
 * 

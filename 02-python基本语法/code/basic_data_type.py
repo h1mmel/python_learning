@@ -1,3 +1,8 @@
+print('guido van rossum')
+
+name = 'guido van rossum'
+print(name)
+
 print('hello world!')
 print("hello world!")
 
@@ -14,3 +19,4 @@ start = 'hello'
 end = 'world!'
 full = start + ' ' + end
 print(full)
+print(start.title() + ' ' + end.title())
