@@ -100,5 +100,5 @@ GUIDO VAN ROSSUM
 guido van rossum
 ```
 
-
+> python中
 
