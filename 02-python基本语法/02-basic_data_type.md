@@ -76,6 +76,8 @@
 
 注：python3.8中删除了内置函数basestring()、cmp()、execfile()、file()、long()、raw_input()、reduce()、reload()、unichr()、unicode()、xrange()，新增了内置函数ascii()、breakpoint()、bytes()、exec()。
 
+------
+
 </br>
 
 ### 字符串
@@ -95,7 +97,7 @@
 '"python is the best."'
 ```
 
-##### 字符串的常用方法
+##### 字符串的几种常用方法
 
 * 修改字符串的大小写
 
@@ -114,6 +116,15 @@ GUIDO VAN ROSSUM
 guido van rossum
 ```
 
-> python变量使用句点(.)访问方法，如name.title()，代表变量name执行title()方法，结果就是将字符串中的每个单词的首字母大写。然后print()函数就将name.title()的返回结果打印在终端上。
+> python变量使用句点(.)访问方法，如name.title()，代表变量name执行title()方法，作用就是将字符串中的每个单词的首字母大写。然后print()函数将name.title()的返回结果打印在终端上。同理，upper()方法作用是将字符串中的所有字符转换成大写，lower()方法作用是将字符串中的所有字符转换成小写，因为name本身就是小写所以没有变化。
 
-注：python中的函数分为函数和方法两种，其中类中的函数被称为方法。
+注：python中的函数分为函数和方法两种叫法，其中类中的函数被称为方法。
+
+* 拼接字符串
+
+```
+start = 'hello'
+end = 'world!'
+print(start + end)
+```
+
