@@ -39,7 +39,7 @@
 | dict()        | hex()       | object()     | slice()     | ***coerce()*** |
 | dir()         | id()        | oct()        | sorted()    | ***intern()*** |
 
-注：python2.7中，print是关键字而不是函数。可以在脚本头部添加`from __future__ import print_function` 语句将print转换成函数使用。内置函数***apply()***、***buffer()***、***coerce()***、***intern()***被放进了[Non-essential Built-in Functions](https://docs.python.org/zh-cn/2.7/library/functions.html#non-essential-built-in-funcs) section中，不在重要。
+注：python2.7中，print是关键字而不是函数。可以在脚本头部添加`from __future__ import print_function` 语句将print转换成函数使用。内置函数***apply()***、***buffer()***、***coerce()***、***intern()*** 被放进了[Non-essential Built-in Functions](https://docs.python.org/zh-cn/2.7/library/functions.html#non-essential-built-in-funcs) section中，不在重要。
 
 > 内置函数表（python3.8）
 
