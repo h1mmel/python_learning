@@ -129,6 +129,7 @@ start = 'hello'
 end = 'world!'
 full = start + ' ' + end
 print(full)
+print(start.title() + ' ' + end.title())
 ```
 
 运行结果如下
