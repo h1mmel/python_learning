@@ -30,7 +30,7 @@
 | assert | del      | global  | not      | with   |
 | async  | elif     | if      | or       | yield  |
 
-注：从python3.7开始新增了关键字，False、None、True、async、await、nonlocal，删除了关键字exec、print。关键字的使用必须表格中列出的拼写完全一致。
+注：从python3.7开始新增了关键字，False、None、True、async、await、nonlocal，废弃了关键字exec、print。关键字的使用必须表格中列出的拼写完全一致。
 
 > 内置函数表 (python2.7)
 
@@ -74,7 +74,7 @@
 | compile()     | globals()   | map()        | reversed()   | `__import__()` |
 | complex()     | hasattr()   | max()        | round()      |                |
 
-注：python3.8中删除了内置函数basestring()、cmp()、execfile()、file()、long()、raw_input()、reduce()、reload()、unichr()、unicode()、xrange()，新增了内置函数ascii()、breakpoint()、bytes()、exec()。
+注：python3.8中废弃了内置函数basestring()、cmp()、execfile()、file()、long()、raw_input()、reduce()、reload()、unichr()、unicode()、xrange()，新增了内置函数ascii()、breakpoint()、bytes()、exec()。
 
 </br>
 
@@ -124,9 +124,17 @@ guido van rossum
 
 * 拼接字符串
 
-```
+```python
 start = 'hello'
 end = 'world!'
-print(start + end)
+full = start + ' ' + end
+print(full)
 ```
 
+运行结果如下
+
+```
+hello world!
+```
+
+* 

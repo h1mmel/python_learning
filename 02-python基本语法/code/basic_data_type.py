@@ -9,3 +9,8 @@ name = 'guido van rossum'
 print(name.title())
 print(name.upper())
 print(name.lower())
+
+start = 'hello'
+end = 'world!'
+full = start + ' ' + end
+print(full)
