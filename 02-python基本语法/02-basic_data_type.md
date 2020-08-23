@@ -76,9 +76,11 @@
 
 注：python3.8中删除了内置函数basestring()、cmp()、execfile()、file()、long()、raw_input()、reduce()、reload()、unichr()、unicode()、xrange()，新增了内置函数ascii()、breakpoint()、bytes()、exec()。
 
-------
-
 </br>
+
+#### 基本变量类型
+
+---
 
 ### 字符串
 
